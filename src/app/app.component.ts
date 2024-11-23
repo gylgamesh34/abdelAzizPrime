@@ -1,17 +1,16 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { ToolbarComponent } from './components/toolbar/toolbar/toolbar.component';
+import { BodyComponent } from './components/body/body/body.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, ToolbarComponent, BodyComponent],
   template: `
-    <h1>Welcome to {{title}}!</h1>
-
     <router-outlet />
   `,
   styles: [],
 })
 export class AppComponent {
-  title = 'abdelAzizPrime';
 }
