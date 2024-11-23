@@ -24,7 +24,7 @@ IF ERRORLEVEL 1 (
     exit /b 1
 )
 
-npx angular-cli-ghpages --dir=dist/abdelAzizPrime/browser   
+npx angular-cli-ghpages --dir=dist/abdel-aziz-prime/browser   
 
 
 REM Fin du script
