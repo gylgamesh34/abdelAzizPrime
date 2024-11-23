@@ -24,7 +24,7 @@ import AboutComponent from '../../about/about/about.component';
   padding: 4em 2em;
   min-height: calc(100vh - 80px); /* Ajuste en fonction de la toolbar */
   color: #ffffff;
-  background: url('/assets/images/hak.jpg') no-repeat center center/cover;
+  background: url('/abdelAzizPrime/assets/images/hak.jpg') no-repeat center center/cover;
   display: flex;
   flex-direction: column;
   justify-content: center;

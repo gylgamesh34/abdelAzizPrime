@@ -24,8 +24,11 @@ IF ERRORLEVEL 1 (
     exit /b 1
 )
 
+echo Fin construction du projet Angular...
+
 npx angular-cli-ghpages --dir=dist/abdel-aziz-prime/browser   
 
+echo Appli héberger !  :)
 
 REM Fin du script
 echo Déploiement terminé !
