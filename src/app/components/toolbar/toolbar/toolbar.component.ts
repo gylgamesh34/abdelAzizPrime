@@ -113,6 +113,7 @@ import { RouterLink } from '@angular/router';
         align-items: center;
         transform: translateX(100%);
         transition: transform 0.3s ease;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre pour le menu */
       }
 
       .sections.open {
@@ -123,6 +124,15 @@ import { RouterLink } from '@angular/router';
         margin: 1em 0;
         font-size: 1.5em;
       }
+
+      .logo {
+        font-size: 1.5em; /* Réduction de la taille du logo sur mobile */
+      }
+    }
+
+    /* Amélioration de la fluidité du menu */
+    .sections a {
+      transition: transform 0.3s ease, color 0.3s ease;
     }
   `
 })
